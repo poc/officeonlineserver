@@ -1,0 +1,9 @@
+.vscode/settings.json
+/.vs
+package-lock.json
+/dist
+dist
+node_modules
+/node_modules
+*.yml
+*.env

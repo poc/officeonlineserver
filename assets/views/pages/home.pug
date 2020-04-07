@@ -1,0 +1,9 @@
+doctype html
+html(lang='en')
+ head
+    title  title
+    style
+      include ../css/style.css
+ body
+    - var env = nodeEnv ? nodeEnv : 'env'
+    h1 Wopi Host #{env}

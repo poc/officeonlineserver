@@ -1,0 +1,46 @@
+{
+    "success": {
+        "res": {
+            "statusCode": 200,
+            "headers": {
+                "content-type": "application/json"
+            }
+        },
+        "body": {
+            "BaseFileName": "sample.wopitest",
+            "OwnerId": "documentUser",
+            "Size": 5078,
+            "UserId": "Test User",
+            "Version": "7ae9ea40-65ce-11ea-b366-9932f736c868",
+            "UserInfo": "PutUserInfoTest",
+            "ReadOnly": false,
+            "UserCanWrite": true,
+            "IsAnonymousUser": true,
+            "SupportsUpdate": true,
+            "UserCanNotWriteRelative": true,
+            "SupportsUserInfo": true,
+            "SupportsGetLock": true,
+            "SupportsLocks": true,
+            "UserFriendlyName": "Test User",
+            "SupportsContainers": true,
+            "UserCanRename": false,
+            "UserCanPresent": false,
+            "SupportsExtendedLockLength": true,
+            "SupportsRename": false,
+            "SupportsDeleteFile": true,
+            "ClosePostMessage": true,
+            "EditModePostMessage": true
+        }
+    },
+    "failure": {
+        "internalServerError":{
+            "statusCode": 500
+        },
+        "Unauthorized":{
+            "statusCode": 401
+        },
+        "NotFound":{
+            "statusCode": 404
+        }
+    }
+}
